@@ -1,5 +1,3 @@
-"use strict";
-
 const ipRegex = require("ip-regex");
 
 const v4 = ipRegex.v4().source + "\\/(3[0-2]|[12]?[0-9])";
